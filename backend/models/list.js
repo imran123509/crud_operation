@@ -9,8 +9,7 @@ const cityList=new mongoose.Schema({
         required: true
       },
       national:{
-          type: String,
-          required: true
+          type: String
       }
 }, {timestamps: true})
 

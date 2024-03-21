@@ -100,9 +100,6 @@ const getOneInfo=async(req, res)=>{
     }
     res.status(200).json(findOne);
 }
-
-
-
 module.exports={
     createNewCity,
     UpdateCity,
